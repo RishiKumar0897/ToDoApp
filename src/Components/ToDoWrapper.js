@@ -23,7 +23,6 @@ export const ToDoWrapper = () => {
       )
     );
   }
-
   const editTodo = (id) => {
     setTodos(
       todos.map((todo) =>
